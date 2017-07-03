@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="F:\Workspace\PIPE-Project\pipe2-PIPEv4.3.0.tar.gz"/>
+		<item value="F:\Workspace\PIPE-Project\pipe2-PIPEv4.3.0.tar.gz_expanded\PIPEv4.3.0"/>
 		<item value="F:\Workspace\Project Workspace\pipe2-PIPEv4.3.0.tar.gz"/>
 		<item value="F:\Workspace\Project Workspace\pipe2-src.tar.gz"/>
 	</list>

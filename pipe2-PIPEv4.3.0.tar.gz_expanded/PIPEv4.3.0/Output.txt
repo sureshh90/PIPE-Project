@@ -1,0 +1,1 @@
+[net.sourceforge.jpowergraph.defaults.TextEdge@1a861e5]

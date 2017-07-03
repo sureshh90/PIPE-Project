@@ -10,7 +10,10 @@ import java.io.RandomAccessFile;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Iterator;
 import java.util.LinkedList;
+import java.io.*;
+
 
 import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
@@ -349,6 +352,10 @@ implements IModule
 		ArrayList loopEdgesTransitions = new ArrayList();
 		String label;
 		String marking;
+		
+		
+		
+		//System.out.println(header.getNumTransitions());
 
 		int stateArraySize = header.getStateArraySize();
 		StateRecord record = new StateRecord();
@@ -446,7 +453,29 @@ implements IModule
 			edges.add(new PIPELoopWithTextEdge((DefaultNode) (loopEdges.get(i)),
 					(String) (loopEdgesTransitions.get(i))));
 		}
+        
+		//Iterator for ArrayList
+		
+		Iterator it = edges.iterator();
+		
+		while (it.hasNext()){
+			System.out.println(it.next());
+			
+		}
 
+		
+		//Getting the output stream of the file for writing
+		File f = new File("Output.txt");
+		FileOutputStream fos = new FileOutputStream(f);
+		PrintWriter pw = new PrintWriter(fos);
+		
+		String tmp=edges.toString();
+		//Writing the user input to the file
+		pw.write(tmp);
+		pw.flush();
+		fos.close();
+		pw.close();
+				
 		graph.addElements(nodes, edges);
 
 		return graph;
