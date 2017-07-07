@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ReachabilityGraph>
+<geninfo>
+<numberofstates>5</numberofstates>
+<numberoftransitions>5</numberoftransitions>
+</geninfo>
+<states>
+<statelabel>S0</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 0, 0, 0, 0}</statemarking>
+</states>
+<states>
+<statelabel>S1</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{0, 1, 2, 0, 0}</statemarking>
+</states>
+<states>
+<statelabel>S2</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{0, 1, 0, 0, 1}</statemarking>
+</states>
+<states>
+<statelabel>S3</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{0, 0, 2, 1, 0}</statemarking>
+</states>
+<states>
+<statelabel>S4</statelabel>
+<statestatus>Tangible</statestatus>
+<statemarking>{0, 0, 0, 1, 1}</statemarking>
+</states>
+<transitions>
+<transitionlabel>T0</transitionlabel>
+<transitionfrom>S0</transitionfrom>
+<transitionfrom>S1</transitionfrom>
+</transitions>
+<transitions>
+<transitionlabel>T2</transitionlabel>
+<transitionfrom>S1</transitionfrom>
+<transitionfrom>S2</transitionfrom>
+</transitions>
+<transitions>
+<transitionlabel>T1</transitionlabel>
+<transitionfrom>S1</transitionfrom>
+<transitionfrom>S3</transitionfrom>
+</transitions>
+<transitions>
+<transitionlabel>T1</transitionlabel>
+<transitionfrom>S2</transitionfrom>
+<transitionfrom>S4</transitionfrom>
+</transitions>
+<transitions>
+<transitionlabel>T2</transitionlabel>
+<transitionfrom>S3</transitionfrom>
+<transitionfrom>S4</transitionfrom>
+</transitions>
+</ReachabilityGraph>

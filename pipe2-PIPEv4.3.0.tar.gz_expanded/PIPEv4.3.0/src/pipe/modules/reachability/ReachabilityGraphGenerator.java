@@ -43,6 +43,7 @@ import pipe.gui.widgets.ResultsHTMLPane;
 import pipe.io.ImmediateAbortException;
 import pipe.io.IncorrectFileFormatException;
 import pipe.io.ReachabilityGraphFileHeader;
+import pipe.io.ReachabilityGraphXMLGenerator;
 import pipe.io.StateRecord;
 import pipe.io.TransitionRecord;
 import pipe.modules.interfaces.IModule;
@@ -316,6 +317,7 @@ implements IModule
 					}
 
 
+	@SuppressWarnings("unchecked")
 	private static DefaultGraph createGraph(File rgFile, PetriNetView dataLayer,
 			boolean coverabilityGraph) throws IOException
 			{
@@ -355,13 +357,15 @@ implements IModule
 		
 		
 		
-		//System.out.println(header.getNumTransitions());
 
 		int stateArraySize = header.getStateArraySize();
 		StateRecord record = new StateRecord();
 		record.read1(stateArraySize, reachabilityFile);
 		label = "S0";
 		marking = record.getMarkingString();
+		
+		ReachabilityGraphXMLGenerator xmlfile = new ReachabilityGraphXMLGenerator(header.getNumStates(), header.getNumTransitions());
+				
 		if(record.getTangible())
 		{
 			if(checkBox1.getState())
@@ -369,12 +373,16 @@ implements IModule
 				nodes.add(coverabilityGraph
 						? new PIPEInitialState(label, marking)
 				: new PIPEInitialTangibleState(label, marking));
+				
+				xmlfile.addStatetoXML(0, record.getTangible(), record.getMarkingString());
 			}
 			else
 			{
 				nodes.add(coverabilityGraph
 						? new PIPEState(label, marking)
 				: new PIPETangibleState(label, marking));
+				
+				xmlfile.addStatetoXML(0, record.getTangible(), record.getMarkingString());
 			}
 		}
 		else
@@ -384,12 +392,16 @@ implements IModule
 				nodes.add(coverabilityGraph
 						? new PIPEInitialState(label, marking)
 				: new PIPEInitialVanishingState(label, marking));
+				
+				xmlfile.addStatetoXML(0, record.getTangible(), record.getMarkingString());
 			}
 			else
 			{
 				nodes.add(coverabilityGraph
 						? new PIPEState(label, marking)
 				: new PIPEVanishingState(label, marking));
+				
+				xmlfile.addStatetoXML(0, record.getTangible(), record.getMarkingString());
 			}
 		}
 
@@ -403,12 +415,16 @@ implements IModule
 				nodes.add(coverabilityGraph
 						? new PIPEState(label, marking)
 				: new PIPETangibleState(label, marking));
+				
+				xmlfile.addStatetoXML(count, record.getTangible(), record.getMarkingString());
 			}
 			else
 			{
 				nodes.add(coverabilityGraph
 						? new PIPEState(label, marking)
 				: new PIPEVanishingState(label, marking));
+				
+				xmlfile.addStatetoXML(count, record.getTangible(), record.getMarkingString());
 			}
 		}
 
@@ -422,6 +438,10 @@ implements IModule
 
 			int from = transitions.getFromState();
 			int to = transitions.getToState();
+			
+			xmlfile.addTransitiontoXML(dataLayer.getTransitionName(transitions.getTransitionNo()), transitions.getFromState(), transitions.getToState());
+				
+						
 			if(from != to)
 			{
 				edges.add(new TextEdge(
@@ -454,28 +474,7 @@ implements IModule
 					(String) (loopEdgesTransitions.get(i))));
 		}
         
-		//Iterator for ArrayList
 		
-		Iterator it = edges.iterator();
-		
-		while (it.hasNext()){
-			System.out.println(it.next());
-			
-		}
-
-		
-		//Getting the output stream of the file for writing
-		File f = new File("Output.txt");
-		FileOutputStream fos = new FileOutputStream(f);
-		PrintWriter pw = new PrintWriter(fos);
-		
-		String tmp=edges.toString();
-		//Writing the user input to the file
-		pw.write(tmp);
-		pw.flush();
-		fos.close();
-		pw.close();
-				
 		graph.addElements(nodes, edges);
 
 		return graph;
