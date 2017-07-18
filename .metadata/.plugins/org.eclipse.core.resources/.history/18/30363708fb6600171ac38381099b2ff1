@@ -476,8 +476,6 @@ implements IModule
         
 		
 		graph.addElements(nodes, edges);
-		
-		System.out.println(graph.getAllNodes());
 
 		return graph;
 			}

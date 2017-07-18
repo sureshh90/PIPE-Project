@@ -81,7 +81,7 @@ public void addTransitiontoXML(String var_transid, int var_transfrom, int var_tr
 		    transitiondetail.appendChild(transitionfrom);
 		    
 		   //Add the <transitionto> tag	   	 
-		    Element transitionto = doc.createElement("transitionto");			  
+		    Element transitionto = doc.createElement("transitionfrom");			  
 		    transitionto.appendChild(doc.createTextNode("S"+String.valueOf(var_transto)));
 		    transitiondetail.appendChild(transitionto);
 		   

@@ -81,7 +81,7 @@ public void addTransitiontoXML(String var_transid, int var_transfrom, int var_tr
 		    transitiondetail.appendChild(transitionfrom);
 		    
 		   //Add the <transitionto> tag	   	 
-		    Element transitionto = doc.createElement("transitionto");			  
+		    Element transitionto = doc.createElement("transitionfrom");			  
 		    transitionto.appendChild(doc.createTextNode("S"+String.valueOf(var_transto)));
 		    transitiondetail.appendChild(transitionto);
 		   
@@ -107,17 +107,14 @@ public void addStatetoXML(int var_stateid, boolean var_istangible, String var_ma
 		   
 		   Node rootElement = doc.getFirstChild();
 		   
-		   //Add the <statedetail> tag
-		   Element statedetail = doc.createElement("statedetail");
-		   Attr attrType = doc.createAttribute("label");
-	       attrType.setValue(String.valueOf("S"+String.valueOf(var_stateid)));
-	       statedetail.setAttributeNode(attrType);
-	       rootElement.appendChild(statedetail);	       
+		   //Add the <states> tag
+		   Element states = doc.createElement("states");
+	       rootElement.appendChild(states);	       
 	              
 	        //Add the <statelabel> tag
 		    Element statelabel = doc.createElement("statelabel");		  
 		    statelabel.appendChild(doc.createTextNode("S"+String.valueOf(var_stateid)));
-		    statedetail.appendChild(statelabel);
+		    states.appendChild(statelabel);
 		    
 		    //Add the <statestatus>  tag	
 		    String var_statestatus;
@@ -128,12 +125,12 @@ public void addStatetoXML(int var_stateid, boolean var_istangible, String var_ma
 		    
 		    Element statestatus = doc.createElement("statestatus");			  
 		    statestatus.appendChild(doc.createTextNode(var_statestatus));
-		    statedetail.appendChild(statestatus);
+		    states.appendChild(statestatus);
 		    
 		    //Add the <statemarking>  tag		    
 		    Element statemarking = doc.createElement("statemarking");			  
 		    statemarking.appendChild(doc.createTextNode(var_marking));
-		    statedetail.appendChild(statemarking);
+		    states.appendChild(statemarking);
 		   
 		     // write the content into xml file
 	         TransformerFactory transformerFactory = TransformerFactory.newInstance();

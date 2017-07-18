@@ -1,5 +1,0 @@
-package pipe.io;
-
-public class ReachabilityGraphXMLGenerator {
-
-}

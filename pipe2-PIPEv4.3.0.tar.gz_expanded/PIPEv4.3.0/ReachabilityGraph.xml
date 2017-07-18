@@ -1,57 +1,227 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ReachabilityGraph>
 <geninfo>
-<numberofstates>5</numberofstates>
-<numberoftransitions>5</numberoftransitions>
+<numberofstates>22</numberofstates>
+<numberoftransitions>22</numberoftransitions>
 </geninfo>
-<states>
+<statedetail label="S0">
 <statelabel>S0</statelabel>
 <statestatus>Vanishing</statestatus>
-<statemarking>{1, 0, 0, 0, 0}</statemarking>
-</states>
-<states>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S1">
 <statelabel>S1</statelabel>
 <statestatus>Vanishing</statestatus>
-<statemarking>{0, 1, 2, 0, 0}</statemarking>
-</states>
-<states>
+<statemarking>{1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S2">
 <statelabel>S2</statelabel>
 <statestatus>Vanishing</statestatus>
-<statemarking>{0, 1, 0, 0, 1}</statemarking>
-</states>
-<states>
+<statemarking>{1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S3">
 <statelabel>S3</statelabel>
 <statestatus>Vanishing</statestatus>
-<statemarking>{0, 0, 2, 1, 0}</statemarking>
-</states>
-<states>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S4">
 <statelabel>S4</statelabel>
 <statestatus>Tangible</statestatus>
-<statemarking>{0, 0, 0, 1, 1}</statemarking>
-</states>
-<transitions>
+<statemarking>{1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S5">
+<statelabel>S5</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S6">
+<statelabel>S6</statelabel>
+<statestatus>Tangible</statestatus>
+<statemarking>{0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S7">
+<statelabel>S7</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S8">
+<statelabel>S8</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S9">
+<statelabel>S9</statelabel>
+<statestatus>Tangible</statestatus>
+<statemarking>{1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S10">
+<statelabel>S10</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S11">
+<statelabel>S11</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S12">
+<statelabel>S12</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S13">
+<statelabel>S13</statelabel>
+<statestatus>Tangible</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S14">
+<statelabel>S14</statelabel>
+<statestatus>Tangible</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0}</statemarking>
+</statedetail>
+<statedetail label="S15">
+<statelabel>S15</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S16">
+<statelabel>S16</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S17">
+<statelabel>S17</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S18">
+<statelabel>S18</statelabel>
+<statestatus>Tangible</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S19">
+<statelabel>S19</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S20">
+<statelabel>S20</statelabel>
+<statestatus>Vanishing</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<statedetail label="S21">
+<statelabel>S21</statelabel>
+<statestatus>Tangible</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+</statedetail>
+<transitiondetail label="T0">
 <transitionlabel>T0</transitionlabel>
 <transitionfrom>S0</transitionfrom>
-<transitionfrom>S1</transitionfrom>
-</transitions>
-<transitions>
-<transitionlabel>T2</transitionlabel>
-<transitionfrom>S1</transitionfrom>
-<transitionfrom>S2</transitionfrom>
-</transitions>
-<transitions>
+<transitionto>S1</transitionto>
+</transitiondetail>
+<transitiondetail label="T1">
 <transitionlabel>T1</transitionlabel>
 <transitionfrom>S1</transitionfrom>
-<transitionfrom>S3</transitionfrom>
-</transitions>
-<transitions>
-<transitionlabel>T1</transitionlabel>
-<transitionfrom>S2</transitionfrom>
-<transitionfrom>S4</transitionfrom>
-</transitions>
-<transitions>
+<transitionto>S2</transitionto>
+</transitiondetail>
+<transitiondetail label="T2">
 <transitionlabel>T2</transitionlabel>
+<transitionfrom>S2</transitionfrom>
+<transitionto>S3</transitionto>
+</transitiondetail>
+<transitiondetail label="T1.1">
+<transitionlabel>T1.1</transitionlabel>
+<transitionfrom>S2</transitionfrom>
+<transitionto>S4</transitionto>
+</transitiondetail>
+<transitiondetail label="T3">
+<transitionlabel>T3</transitionlabel>
 <transitionfrom>S3</transitionfrom>
-<transitionfrom>S4</transitionfrom>
-</transitions>
+<transitionto>S5</transitionto>
+</transitiondetail>
+<transitiondetail label="T2.1">
+<transitionlabel>T2.1</transitionlabel>
+<transitionfrom>S3</transitionfrom>
+<transitionto>S6</transitionto>
+</transitiondetail>
+<transitiondetail label="T4">
+<transitionlabel>T4</transitionlabel>
+<transitionfrom>S5</transitionfrom>
+<transitionto>S7</transitionto>
+</transitiondetail>
+<transitiondetail label="T5">
+<transitionlabel>T5</transitionlabel>
+<transitionfrom>S7</transitionfrom>
+<transitionto>S8</transitionto>
+</transitiondetail>
+<transitiondetail label="T4.1">
+<transitionlabel>T4.1</transitionlabel>
+<transitionfrom>S7</transitionfrom>
+<transitionto>S9</transitionto>
+</transitiondetail>
+<transitiondetail label="T6">
+<transitionlabel>T6</transitionlabel>
+<transitionfrom>S8</transitionfrom>
+<transitionto>S10</transitionto>
+</transitiondetail>
+<transitiondetail label="T7">
+<transitionlabel>T7</transitionlabel>
+<transitionfrom>S10</transitionfrom>
+<transitionto>S11</transitionto>
+</transitiondetail>
+<transitiondetail label="T8">
+<transitionlabel>T8</transitionlabel>
+<transitionfrom>S11</transitionfrom>
+<transitionto>S12</transitionto>
+</transitiondetail>
+<transitiondetail label="T9">
+<transitionlabel>T9</transitionlabel>
+<transitionfrom>S12</transitionfrom>
+<transitionto>S13</transitionto>
+</transitiondetail>
+<transitiondetail label="T8.1">
+<transitionlabel>T8.1</transitionlabel>
+<transitionfrom>S12</transitionfrom>
+<transitionto>S14</transitionto>
+</transitiondetail>
+<transitiondetail label="Fork 1">
+<transitionlabel>Fork 1</transitionlabel>
+<transitionfrom>S13</transitionfrom>
+<transitionto>S15</transitionto>
+</transitiondetail>
+<transitiondetail label="T11">
+<transitionlabel>T11</transitionlabel>
+<transitionfrom>S15</transitionfrom>
+<transitionto>S16</transitionto>
+</transitiondetail>
+<transitiondetail label="T10">
+<transitionlabel>T10</transitionlabel>
+<transitionfrom>S15</transitionfrom>
+<transitionto>S17</transitionto>
+</transitiondetail>
+<transitiondetail label="T10">
+<transitionlabel>T10</transitionlabel>
+<transitionfrom>S16</transitionfrom>
+<transitionto>S18</transitionto>
+</transitiondetail>
+<transitiondetail label="T11">
+<transitionlabel>T11</transitionlabel>
+<transitionfrom>S17</transitionfrom>
+<transitionto>S18</transitionto>
+</transitiondetail>
+<transitiondetail label="Join">
+<transitionlabel>Join</transitionlabel>
+<transitionfrom>S18</transitionfrom>
+<transitionto>S19</transitionto>
+</transitiondetail>
+<transitiondetail label="T12">
+<transitionlabel>T12</transitionlabel>
+<transitionfrom>S19</transitionfrom>
+<transitionto>S20</transitionto>
+</transitiondetail>
+<transitiondetail label="T13">
+<transitionlabel>T13</transitionlabel>
+<transitionfrom>S20</transitionfrom>
+<transitionto>S21</transitionto>
+</transitiondetail>
 </ReachabilityGraph>

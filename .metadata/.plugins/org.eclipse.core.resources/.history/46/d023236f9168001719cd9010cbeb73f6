@@ -81,7 +81,7 @@ public void addTransitiontoXML(String var_transid, int var_transfrom, int var_tr
 		    transitiondetail.appendChild(transitionfrom);
 		    
 		   //Add the <transitionto> tag	   	 
-		    Element transitionto = doc.createElement("transitionto");			  
+		    Element transitionto = doc.createElement("transitionfrom");			  
 		    transitionto.appendChild(doc.createTextNode("S"+String.valueOf(var_transto)));
 		    transitiondetail.appendChild(transitionto);
 		   
@@ -110,7 +110,7 @@ public void addStatetoXML(int var_stateid, boolean var_istangible, String var_ma
 		   //Add the <statedetail> tag
 		   Element statedetail = doc.createElement("statedetail");
 		   Attr attrType = doc.createAttribute("label");
-	       attrType.setValue(String.valueOf("S"+String.valueOf(var_stateid)));
+	       attrType.setValue(String.valueOf(var_stateid));
 	       statedetail.setAttributeNode(attrType);
 	       rootElement.appendChild(statedetail);	       
 	              
