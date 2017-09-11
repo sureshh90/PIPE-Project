@@ -1,227 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ReachabilityGraph>
 <geninfo>
-<numberofstates>22</numberofstates>
-<numberoftransitions>22</numberoftransitions>
+<numberofstates>12</numberofstates>
+<numberoftransitions>11</numberoftransitions>
 </geninfo>
 <statedetail label="S0">
 <statelabel>S0</statelabel>
-<statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1}</statemarking>
+<statestatus>Tangible</statestatus>
+<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0}</statemarking>
 </statedetail>
 <statedetail label="S1">
 <statelabel>S1</statelabel>
 <statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+<statemarking>{0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0}</statemarking>
 </statedetail>
 <statedetail label="S2">
 <statelabel>S2</statelabel>
 <statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+<statemarking>{0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0}</statemarking>
 </statedetail>
 <statedetail label="S3">
 <statelabel>S3</statelabel>
-<statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+<statestatus>Tangible</statestatus>
+<statemarking>{0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0}</statemarking>
 </statedetail>
 <statedetail label="S4">
 <statelabel>S4</statelabel>
-<statestatus>Tangible</statestatus>
-<statemarking>{1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+<statestatus>Vanishing</statestatus>
+<statemarking>{0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0}</statemarking>
 </statedetail>
 <statedetail label="S5">
 <statelabel>S5</statelabel>
 <statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+<statemarking>{0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0}</statemarking>
 </statedetail>
 <statedetail label="S6">
 <statelabel>S6</statelabel>
 <statestatus>Tangible</statestatus>
-<statemarking>{0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+<statemarking>{0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0}</statemarking>
 </statedetail>
 <statedetail label="S7">
 <statelabel>S7</statelabel>
 <statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+<statemarking>{0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0}</statemarking>
 </statedetail>
 <statedetail label="S8">
 <statelabel>S8</statelabel>
 <statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+<statemarking>{0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0}</statemarking>
 </statedetail>
 <statedetail label="S9">
 <statelabel>S9</statelabel>
 <statestatus>Tangible</statestatus>
-<statemarking>{1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+<statemarking>{0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0}</statemarking>
 </statedetail>
 <statedetail label="S10">
 <statelabel>S10</statelabel>
 <statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
+<statemarking>{0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1}</statemarking>
 </statedetail>
 <statedetail label="S11">
 <statelabel>S11</statelabel>
-<statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1}</statemarking>
-</statedetail>
-<statedetail label="S12">
-<statelabel>S12</statelabel>
-<statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1}</statemarking>
-</statedetail>
-<statedetail label="S13">
-<statelabel>S13</statelabel>
 <statestatus>Tangible</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1}</statemarking>
+<statemarking>{0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0}</statemarking>
 </statedetail>
-<statedetail label="S14">
-<statelabel>S14</statelabel>
-<statestatus>Tangible</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0}</statemarking>
-</statedetail>
-<statedetail label="S15">
-<statelabel>S15</statelabel>
-<statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
-</statedetail>
-<statedetail label="S16">
-<statelabel>S16</statelabel>
-<statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
-</statedetail>
-<statedetail label="S17">
-<statelabel>S17</statelabel>
-<statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
-</statedetail>
-<statedetail label="S18">
-<statelabel>S18</statelabel>
-<statestatus>Tangible</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
-</statedetail>
-<statedetail label="S19">
-<statelabel>S19</statelabel>
-<statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
-</statedetail>
-<statedetail label="S20">
-<statelabel>S20</statelabel>
-<statestatus>Vanishing</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
-</statedetail>
-<statedetail label="S21">
-<statelabel>S21</statelabel>
-<statestatus>Tangible</statestatus>
-<statemarking>{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}</statemarking>
-</statedetail>
-<transitiondetail label="T0">
-<transitionlabel>T0</transitionlabel>
+<transitiondetail label="T_Dummy_Start">
+<transitionlabel>T_Dummy_Start</transitionlabel>
 <transitionfrom>S0</transitionfrom>
 <transitionto>S1</transitionto>
 </transitiondetail>
-<transitiondetail label="T1">
-<transitionlabel>T1</transitionlabel>
+<transitiondetail label="The driver deaccelerates the vehicle.">
+<transitionlabel>The driver deaccelerates the vehicle.</transitionlabel>
 <transitionfrom>S1</transitionfrom>
 <transitionto>S2</transitionto>
 </transitiondetail>
-<transitiondetail label="T2">
-<transitionlabel>T2</transitionlabel>
+<transitiondetail label="Deactivate LMS sytem">
+<transitionlabel>Deactivate LMS sytem</transitionlabel>
 <transitionfrom>S2</transitionfrom>
 <transitionto>S3</transitionto>
 </transitiondetail>
-<transitiondetail label="T1.1">
-<transitionlabel>T1.1</transitionlabel>
+<transitiondetail label="The drives accelerates the vehicle.">
+<transitionlabel>The drives accelerates the vehicle.</transitionlabel>
 <transitionfrom>S2</transitionfrom>
 <transitionto>S4</transitionto>
 </transitiondetail>
-<transitiondetail label="T3">
-<transitionlabel>T3</transitionlabel>
-<transitionfrom>S3</transitionfrom>
+<transitiondetail label="The driver steers away from the current lane.">
+<transitionlabel>The driver steers away from the current lane.</transitionlabel>
+<transitionfrom>S4</transitionfrom>
 <transitionto>S5</transitionto>
 </transitiondetail>
-<transitiondetail label="T2.1">
-<transitionlabel>T2.1</transitionlabel>
-<transitionfrom>S3</transitionfrom>
+<transitiondetail label="Raise an audio alarm">
+<transitionlabel>Raise an audio alarm</transitionlabel>
+<transitionfrom>S5</transitionfrom>
 <transitionto>S6</transitionto>
 </transitiondetail>
-<transitiondetail label="T4">
-<transitionlabel>T4</transitionlabel>
+<transitiondetail label="The driver activates the LKS system">
+<transitionlabel>The driver activates the LKS system</transitionlabel>
 <transitionfrom>S5</transitionfrom>
 <transitionto>S7</transitionto>
 </transitiondetail>
-<transitiondetail label="T5">
-<transitionlabel>T5</transitionlabel>
+<transitiondetail label="The LKS system steers the vehicle">
+<transitionlabel>The LKS system steers the vehicle</transitionlabel>
 <transitionfrom>S7</transitionfrom>
 <transitionto>S8</transitionto>
 </transitiondetail>
-<transitiondetail label="T4.1">
-<transitionlabel>T4.1</transitionlabel>
-<transitionfrom>S7</transitionfrom>
+<transitiondetail label="Raise an alert and deactivate LKS deactivation">
+<transitionlabel>Raise an alert and deactivate LKS deactivation</transitionlabel>
+<transitionfrom>S8</transitionfrom>
 <transitionto>S9</transitionto>
 </transitiondetail>
-<transitiondetail label="T6">
-<transitionlabel>T6</transitionlabel>
+<transitiondetail label="The vehicle is driving through a road under repair">
+<transitionlabel>The vehicle is driving through a road under repair</transitionlabel>
 <transitionfrom>S8</transitionfrom>
 <transitionto>S10</transitionto>
 </transitiondetail>
-<transitiondetail label="T7">
-<transitionlabel>T7</transitionlabel>
+<transitiondetail label="Raise an alarm and deactivate">
+<transitionlabel>Raise an alarm and deactivate</transitionlabel>
 <transitionfrom>S10</transitionfrom>
 <transitionto>S11</transitionto>
-</transitiondetail>
-<transitiondetail label="T8">
-<transitionlabel>T8</transitionlabel>
-<transitionfrom>S11</transitionfrom>
-<transitionto>S12</transitionto>
-</transitiondetail>
-<transitiondetail label="T9">
-<transitionlabel>T9</transitionlabel>
-<transitionfrom>S12</transitionfrom>
-<transitionto>S13</transitionto>
-</transitiondetail>
-<transitiondetail label="T8.1">
-<transitionlabel>T8.1</transitionlabel>
-<transitionfrom>S12</transitionfrom>
-<transitionto>S14</transitionto>
-</transitiondetail>
-<transitiondetail label="Fork 1">
-<transitionlabel>Fork 1</transitionlabel>
-<transitionfrom>S13</transitionfrom>
-<transitionto>S15</transitionto>
-</transitiondetail>
-<transitiondetail label="T11">
-<transitionlabel>T11</transitionlabel>
-<transitionfrom>S15</transitionfrom>
-<transitionto>S16</transitionto>
-</transitiondetail>
-<transitiondetail label="T10">
-<transitionlabel>T10</transitionlabel>
-<transitionfrom>S15</transitionfrom>
-<transitionto>S17</transitionto>
-</transitiondetail>
-<transitiondetail label="T10">
-<transitionlabel>T10</transitionlabel>
-<transitionfrom>S16</transitionfrom>
-<transitionto>S18</transitionto>
-</transitiondetail>
-<transitiondetail label="T11">
-<transitionlabel>T11</transitionlabel>
-<transitionfrom>S17</transitionfrom>
-<transitionto>S18</transitionto>
-</transitiondetail>
-<transitiondetail label="Join">
-<transitionlabel>Join</transitionlabel>
-<transitionfrom>S18</transitionfrom>
-<transitionto>S19</transitionto>
-</transitiondetail>
-<transitiondetail label="T12">
-<transitionlabel>T12</transitionlabel>
-<transitionfrom>S19</transitionfrom>
-<transitionto>S20</transitionto>
-</transitiondetail>
-<transitiondetail label="T13">
-<transitionlabel>T13</transitionlabel>
-<transitionfrom>S20</transitionfrom>
-<transitionto>S21</transitionto>
 </transitiondetail>
 </ReachabilityGraph>
